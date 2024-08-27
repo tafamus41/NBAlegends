@@ -1,4 +1,19 @@
+body{
+  background-color: yellow;
+}
 .logoandtext{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   margin-top: 2rem;
+}
+.logoandtext input{
+  min-width: 420px;
+  max-width: 540px;
+  height: 3rem;
+  font-size: 1.2rem;
+  border:none;
+  border-radius: 10px;
+  text-indent: 1rem;
 }
