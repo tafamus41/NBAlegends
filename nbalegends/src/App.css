@@ -48,3 +48,7 @@ body{
 .card img:hover{
   transform: scale(0.9)
 }
+.listStats{
+  margin: auto;
+  list-style-type:"🏀";
+}
