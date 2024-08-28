@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 const PlayerCard = ({ img, name, statistics }) => {
-  const [showStats, setShowStats] = useState(false);
-  const change = () => setShowStats(!showStats);
+  const [image, setImage] = useState(false);
+  const change = () => setImage(!image);
   return (
     <div onClick={change} className="card col-md-6 col-lg-4 col-xl-3 ">
-      {showStats ? (
+      {image ? (
         <ul className="listStats">
           {statistics.map((stat, index) => (
             <li key={index}>{stat}</li>
@@ -14,6 +14,7 @@ const PlayerCard = ({ img, name, statistics }) => {
       ) : (
         <>
           <img src={img} alt={`${name}`} />
+
         </>
       )}
       <p className="text-center fw-bold h4 p-3">{name}</p>
