@@ -14,9 +14,9 @@ const PlayerCard = ({ img, name, statistics }) => {
       ) : (
         <>
           <img src={img} alt={`${name}`} />
-          <p className="text-center fw-bold h4 p-3">{name}</p>
         </>
       )}
+      <p className="text-center fw-bold h4 p-3">{name}</p>
     </div>
   );
 };
