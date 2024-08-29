@@ -7,7 +7,7 @@ const Header = () => {
         <img src={logo} alt="" />
       </p>
       <h1 className="text-center">NBA Legends</h1>
-      <input type="search" name="" id="" placeholder="Search Player..."/>
+      
     </div>
   );
 };
